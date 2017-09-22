@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="cn.sdfi.model.User" table="t_user"><!--把类和数表关联起来-->
+        <id name="id" unsaved-value="-1">    <!--id的产生方式是uuid.hex-->
+            <generator class="increment" />
+		</id>
+		
+		<property name="name"  column="name"/><!--映射姓名-->
+		<property name="password"  column="password"/>
+		<property name="sex" column="sex" />     <!--映射性别-->
+		<property name="address" column="address" /> 
+		<property name="phone" column="phone" /> 
+		<property name="privledge" column="privledge" /> 
+		<property name="email" column="email" /> 
+		<property name="memo" column="memo" /> 
+		 <property name="registerTime" column="registerTime" /> 
+		 <property name="picture" column="picture" /> 
+    </class>
+</hibernate-mapping>

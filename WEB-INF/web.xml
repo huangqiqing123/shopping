@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee   http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+<!-- 过滤器配置开始 -->
+	<filter>
+		<filter-name>encoding</filter-name>
+		<filter-class>cn.sdfi.filters.Encoding</filter-class>
+
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+
+	</filter>
+	<filter-mapping>
+		<filter-name>encoding</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+<!-- 过滤器配置结束 -->
+<!-- 监听器配置开始 -->
+	<listener>
+		<listener-class>
+			cn.sdfi.listeners.OnLineListener
+		</listener-class>
+	</listener>
+<!-- 监听器配置结束 -->
+<!-- 控制器配置开始 -->
+	<servlet>
+		<servlet-name>Control</servlet-name>
+		<servlet-class>cn.sdfi.control.Control</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Control</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+<!-- 控制器配置结束 -->
+<!-- 首页配置开始 -->
+	<welcome-file-list>
+		<welcome-file>main.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
+

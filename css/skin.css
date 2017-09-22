@@ -1,0 +1,1058 @@
+a:link { font-size: 9pt; text-decoration: none; color: blue; } 
+a:hover  {font-size: 9pt; text-decoration: underline; color: #FF9966;}
+a:visited {font-size: 9pt; text-decoration: none; color: #666666;}
+.portalTdCss
+{
+padding:3px;
+border-bottom:1 dotted #000000;
+white-space:nowrap;
+}
+
+BODY
+{
+padding:0;
+margin:0;
+background-color:#EAF4FD;
+
+scrollbar-face-color: #CEE0EE;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #CFE0F0;
+scrollbar-3dlight-color: #8DB1D3;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #AEC4DC;
+scrollbar-darkshadow-color: #8DB1D3;
+}
+.TabTitleCss td
+{
+	font-size: 10pt;
+	background-image:url('../images/headbg.gif');
+	border-width: 1px 0px 0px 1px;
+	border-style: solid;
+	border-color: #E6E6E6;
+	vertical-align:center;
+	width:         100%;
+	height:        20px;
+	white-space:   nowrap;
+	padding-top:2;
+	color: #000000;
+	padding-left:10;
+
+}
+.tdTitle
+{
+text-align:left;
+white-space:nowrap;
+background-color:#CDDEEE;
+padding-left:10;
+border-bottom:1px solid #8DB1D1;
+height:22px;
+width:20%;
+}
+
+.errorxxnr a:link
+{
+    color:#E37804;
+	text-decoration: none;
+}
+.errorxxnr a:visited
+{
+    color:#E37804;
+	text-decoration: none;
+}
+.errorxxnr a:hover 
+{
+    color:#204D77;
+	text-decoration: none;
+}
+td
+{
+font-size:9pt;
+}
+.searchText
+{
+border:1 solid #9A9A9A;
+
+}
+.fieldsetCss
+{
+width:  100%;
+padding-left:10px;
+padding-right:10px;
+padding-top:10px;
+padding-bottom:2px;
+margin-left:12px;
+margin-bottom:4;
+margin-top:10px;
+margin-right:12px;
+color:#214E78;
+}
+.tblContent{
+	border:1px solid #8DB1D1;
+	/*border-bottom:0px solid #8DB1D1;*/
+	
+}
+.tblContent tr{
+	border-bottom:1px solid #8DB1D1;
+	
+}
+
+.TdLeft
+{
+text-align:left;
+white-space:nowrap;
+background-color:#CDDEEE;
+padding-left:10;
+border-bottom:1px solid #8DB1D1;
+height:22px;
+width:20%;
+}
+
+.TdRight
+{
+text-align:left;
+border-bottom:1px solid #8DB1D1;
+}
+
+.TdRight textarea
+{
+border:1 solid #8DB1D3;
+}
+
+.TdRight input
+{
+border:1 solid #8DB1D3;
+height:19px;
+}
+
+.TdRight span
+{
+  font-size:9pt;
+}
+
+
+.hiddenInput
+{
+   width:0%;  
+   height:18px;
+}
+
+
+.TblAdd
+{
+border:0 solid #666666;
+border-collapse:collapse;
+
+}
+.FieldsetCss legend
+{
+color:#666666;
+padding:5px;
+font-size:9pt;
+}
+.BtnDivCss
+{
+padding:10px;
+
+}
+form
+{
+
+}
+/*    ������web�������ʽ   */
+/*-------------------�ŵ�ѡ�򼰸�ѡ���label��ʽ---------------------------*/
+.advlabel{
+	overflow:		hidden;
+	text-overflow:	ellipsis;
+	vertical-align:	middle;
+	text-align:		center;
+}
+/*-------------------��ѡ��input��ʽ---------------------------*/
+.advcheckbox {
+	width:			13px;
+	height:			13px;
+	vertical-align:	middle;
+}
+/*-------------------��ѡ��input��ʽ---------------------------*/
+.advradio {
+	width:			13px;
+	height:			13px;
+	vertical-align:	middle;
+	margin-right:4;
+}
+/*-------------------��ť��ʽbutton---------------------------*/
+.advbutton {
+	overflow:	hidden;
+	text-align:	center;
+	vertical-align:	middle;
+	font-size: 9pt;
+	cursor: hand;
+	height: 20px;
+	background-color: white;
+	background-image:url(../images/button.gif);
+	border: #487094 1px solid;
+	padding-left:2px;
+	padding-right:2px;
+    color:#1F4F77
+}
+.advbutton-over
+ {
+	overflow:	hidden;
+	text-align:	center;
+	vertical-align:	middle;
+	border: #467194 1px solid;
+	font-size: 9pt;
+	cursor: hand;
+	height: 20px;
+	background-color: white;
+	padding-left:2px;
+	padding-right:2px;
+	color:#427DAD
+
+}
+/*-------------------��ťbutton�е�ͼƬ��ʽ---------------------------*/
+.advbutton img{
+	vertical-align:middle;
+	margin-right:2;
+	}
+	/*-------------------��ݿ������е�button��ť��ʽ---------------------------*/
+.data_ctrl button{
+	width:25;height:20;
+	}
+	/*-------------------��ݼ���ʾ��ʽ�����»��߲�תΪ��д��ĸ---------------------------*/
+u{text-transform : uppercase; }
+/*-------------------�������div��ʽ---------------------------*/
+.guage{
+	width:190;
+	height:12;
+	border:1 solid background;
+	background:white;
+	overflow:hidden
+}
+/*-------------------�������div��ʽ---------------------------*/
+.guagesub{
+	background: lime;
+	filter:Alpha(Opacity=0,FinishOpacity=100, Style=1, StartX=0, StartY=0, FinishX=100, FinishY=0);
+	height:4;
+}
+/*-------------------����΢�������input��ʽ---------------------------*/
+.dateadjust
+{
+display:inline;
+}
+.dateadjust input{
+	width:55;
+	height:19;
+	position:relative;
+	left:5;
+	text-align:center;
+	border:1 solid #8DB1D3;
+	}
+	/*-------------------����΢��ťbutton��ʽ---------------------------*/
+.dateadjust button{
+	width:17;
+	position:absolute;
+	font-size:7;
+	font-family:webdings;
+	text-align:center;
+	background: azure;
+	border-width:1px;
+	border-style:solid;
+	border-color:#8DB1D3;
+	}
+/*-------------------�·�ѡ����ʽ---------------------------*/
+.month{
+	border:1px solid #8DB1D3;
+	position:relative;
+}
+.month select{
+	margin-left:-3px;
+	margin-top:-2px;
+	margin-bottom:-2px;
+}
+/*-------------------����΢�������input��ʽ---------------------------*/
+.adjust
+{
+display:inline;
+}
+.adjust input{
+	width:100%;
+	height:22;
+	padding-right:17;
+	text-align:right;
+	}
+	/*-------------------����΢��ťbutton��ʽ---------------------------*/
+.adjust button{
+	width:16;
+	height:9;
+	position:absolute;
+	font-size:7;
+	font-family:webdings;
+	background-color:white;
+	border:silver solid 1;
+	
+	}
+/*-------------------��Ͽ������input��ʽ---------------------------*/
+/*-------------------��Ͽ������input��ʽ---------------------------*/
+.combobox input{
+	width:86%;
+	height:16;
+	padding-right:17;
+	}
+/*-------------------��Ͽ���-��ťbutton��ʽ---------------------------*/
+.combobox button{
+	width:17;
+	height:17;
+	position:absolute;
+	font-size:9;
+	line-height:1px;
+	font-family:webdings;
+	}
+/*-------------------��Ͽ���-����label��ʽ---------------------------*/
+.combobox label{
+	width:100%;
+	height:20px;
+	padding-top:4;
+	}
+/*-------------------��Ͽ�ǰѡ������ʽ---------------------------*/
+.combobox.selected{
+	background:Highlight;
+	color:white;
+	width:100%;
+	height:20px;
+	}
+/*-------------------��Ͽ���-��������ʽ---------------------------*/
+.combo_body{
+	background:white;
+	border:1 solid dimgray;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#666666', Direction=135, Strength=3);
+	}
+/*-------------------��ѡ����fieldset��ʽ---------------------------*/
+.radiogroup{
+	padding:6;
+	white-space:nowrap;
+	width:12;
+	border:1px solid royalblue;
+}
+/*-------------------ѡ��ֺ�td��ʽ---------------------------*/
+.tab_title td{
+	font-size:9pt;
+	}
+/*-------------------δѡ��ѡ���span��ʽ---------------------------*/
+.tab_view span{
+	height:18;
+	border-top:1 solid white;
+	border-left:1 solid white;
+	border-right:1 solid background��;
+	width:100%;
+	padding-left:12;
+	padding-right:12;
+	padding-top:2;
+	background:lightskyblue��;
+	}
+/*-------------------��ǰѡ���td��ʽ---------------------------*/
+.tab_select{
+	border-left: 1 solid background��;
+	border-right: 1 solid background��; 
+	border-top: 2 solid orange;
+	background:lavender;
+	}
+/*-------------------δѡ��ѡ���td��ʽ---------------------------*/
+.tab_view{
+	padding-top:2;
+	border-bottom: 1 solid white;
+	}
+/*-------------------��ǰѡ���span��ʽ---------------------------*/
+.tab_select span{
+	width:100%;
+	height:18;
+	border-right:1 solid lightsteelblue;
+	border-left:1 solid white;
+	border-top:1 solid white;
+	padding-left:12;
+	padding-right:12;
+	}
+/*-------------------ѡ����һ���ǿյ�Ԫ��td��ʽ---------------------------*/
+.tab_blank{
+	border-bottom: 1 solid white;
+	width:80%;
+	}
+/*-------------------ѡ����ݱ��table��ʽ---------------------------*/
+.tab_body{
+	border-left: 1 solid background��; 
+	border-right: 1 solid background��; 
+	border-bottom: 1 solid background��;
+	background:lavender;
+	}
+/*-------------------ѡ����ݱ��td��ʽ---------------------------*/
+.tab_body.tab_td{
+	border-right: 1 solid lightsteelblue��;
+	border-left: 1 solid white; 
+	border-bottom: 1 solid lightsteelblue��;
+}
+
+/*-------------------��ť�����span��ʽ---------------------------*/
+.buttonskin{
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray background��background��gray;
+	margin-right:1;
+	}
+/*-------------------ʱ���������div��ʽ---------------------------*/
+.divdate input
+{
+border:1 solid gray;
+}
+.date{
+	width:162;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#777777', Direction=135, Strength=4);
+	}
+.date.datebackground
+{
+background: #e4e4e4;
+}
+/*-------------------ʱ����������ڱ��table��ʽ---------------------------*/
+.date.date_table{
+	width:100%;
+	border:1px solid #8DB1D3;
+	padding:2;
+	}
+/*-------------------ʱ�������ʱ��������table��ʽ---------------------------*/
+.date.time_table{
+	width:100%;
+	border:1px solid ;
+	border-color:#8DB1D3;
+	padding:2;
+	position:relative;
+	top:-1;
+	}
+/*-------------------ʱ�������ʱ��������Ԫ��td��ʽ---------------------------*/
+.date.date_table.date_time td{
+	font-size:9pt;
+	}
+/*-------------------ʱ�������ʱ����������ʽ---------------------------*/
+.date.date_table.date_time{
+	width:100%;
+	}
+/*-------------------ʱ������򵯳���Ԫ��td��ʽ---------------------------*/
+.date_body td{
+	width:22;
+	font-size:9pt;
+	text-align:center;
+	cursor:default;
+	}
+/*-------------------ʱ������򵯳���table��ʽ---------------------------*/
+.date_body{
+	position:relative;
+	top:0;
+	border:1px solid;
+	border-color:#8DB1D3;
+	}
+/*-------------------ʱ�����������������������td��ʽ---------------------------*/
+.date_body.date_title td{
+	background: #8DB1D3;
+	color:white;
+	}
+/*-------------------ʱ�������ǰѡ�����ڵ�Ԫ��td��ʽ---------------------------*/
+.date.date_select{
+	background:darkblue;
+	color:white;
+	}
+/*-------------------ʱ�������ʱ��������ϵ�Ԫ��td��ʽ---------------------------*/
+.date.date_mouseover{
+	background:gray;
+	}
+/*-------------------ʱ�������ʱ�䵱ǰϵͳ���ڵ�Ԫ��td��ʽ---------------------------*/
+.date.date_today{
+	background: orange;
+	}
+/*-------------------ʱ�������ȷ�ϰ�ťbutton��ʽ---------------------------*/
+.date_button{
+	width:19;
+	height:19;
+	background: azure;
+	font-family:webdings;
+	font-size:9;
+	border-width:1px;
+	border-style:solid;
+	border-color:#8DB1D3 #8DB1D3 #8DB1D3 azure;
+	position:relative;
+	top:0;
+	left:0;
+	}
+/*-------------------�����������ʽ---------------------------*/
+.date_input{
+	border:1 solid #8DB1D3;
+	text-align:center;
+	height:19;
+}
+/*-------------------ʱ�䰴ť��ʽbutton---------------------------*/
+.time_button {
+	position:relative;
+	top:0;
+	font-family:webdings;
+	width:19;
+	height:19;
+	background:azure;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #8DB1D3;
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+div
+{
+scrollbar-face-color: #CEE0EE;
+scrollbar-highlight-color: #FFFFFF;
+scrollbar-shadow-color: #CFE0F0;
+scrollbar-3dlight-color: #8DB1D3;
+scrollbar-arrow-color:  #006699;
+scrollbar-track-color: #AEC4DC;
+scrollbar-darkshadow-color: #8DB1D3;
+}
+.divTiSkin
+{
+	border:1 solid #8DB1D3;
+	background-color:#EFF4FA;
+}
+.divTiSkinWrap
+{
+	border:1 solid #8DB1D3;
+	background-color:#EFF4FA;
+}
+.divTiSkin table
+{
+	table-layout: fixed;
+	border-collapse:separate;
+}
+.divTiSkinWrap table
+{
+	table-layout: fixed;
+	border-collapse:separate;
+}
+.divTiSkin td
+{
+	border:1 solid #8DB1D3;
+	padding-top:0px;
+	padding-bottom:0px;
+	text-align:center;
+	font-size:9pt;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-top:0;
+	border-left:0;
+	height:	20;
+}
+.divTiSkinWrap	td
+{
+	border:1 solid #8DB1D3;
+	padding-top:0px;
+	padding-bottom:0px;
+	text-align:center;
+	font-size:9pt;
+	border-top:0;
+	border-left:0;
+}
+.divTiSkin img
+{
+}
+.divTiSkinWrap img
+{
+}
+.divTiSkin span
+{
+	width:         100%;
+	height:        100%;
+	overflow:      hidden;
+	text-overflow: ellipsis;
+	white-space:   nowrap;
+	padding-top:3;
+}
+.divTiSkinWrap	span
+{
+	width:         100%;
+	height:        19;
+	padding-top:	3;
+}
+.divTiSkin input
+{
+	background-color:white;
+	border:0 solid white;
+	text-align:center;
+	width:100%;
+	height:17px;
+}
+.divTiSkinWrap input
+{
+	background-color:white;
+	border:0 solid white;
+	text-align:center;
+	width:100%;
+	height:17px;
+}
+td.leftTd
+{
+	position:	relative;
+	left:	expression(this.offsetParent.scrollLeft);
+	background:#CCDDED;
+}
+span.leftSpan
+{
+	color:#000000;
+	font-size:9pt;
+	text-align:right;
+	width:	100%;
+	height:	100%;
+}
+.focusCss
+{
+	border:1 solid #6699cc;
+}
+.lightSkin
+{
+	background:#C7D9ED;
+	text-align:center;
+	font-size:9pt;
+}
+.lightSkin input
+{
+	background-color:#EFF4FA;
+	border:0 solid #3366cc;
+	text-align:center;
+}
+.lightSkin td{
+	background-color:#d8e1f1;
+	color:#3366FF;
+}
+.divToucss table
+{
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+.divToucss td
+{
+	border:1 solid #8DB1D3;
+	font-size:9pt;
+	height:22;
+	text-align:center;
+	vertical-align:top;
+	background-color:white;
+}
+.divToucss span{
+	background-color:#C7D9ED;
+	filter: Alpha(Opacity=40, FinishOpacity=100, Style=1, StartX=0, StartY=0, FinishX=0, FinishY=50);
+	vertical-align:center;
+	width:         100%;
+	height:        100%;
+	overflow:      hidden;
+	text-overflow: ellipsis;
+	white-space:   nowrap;
+	padding-top:3;
+	color: #000000;
+}
+.divToucss label{
+	margin-left:5;
+	font-family:Marlett;
+	font-size:8;
+}
+.divToucss input
+{
+	color:#000000;
+	font-size:9pt;
+	border:0px solid #ccddff;
+	background-color:#ccddff;
+	text-align:center;
+}
+.divAllcss{
+	background:white;
+}
+.divHr{
+	width:	1px;
+	background-color:	threedlightshadow;
+	top:	0;
+	position: absolute;
+	z-index: 2;
+}
+.divSumcss
+{
+	
+}
+
+.divSumcss table
+{
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+.divSumcss td
+{
+	color:#000000;
+	font-size:9pt;
+	text-align:center;
+	height:21;
+	border:1 solid #8DB1D3;
+	background:#C6D8EC;
+}
+.divSumcss input
+{
+	color:#000000;
+	font-size:9pt;
+	border:1 solid background;
+	background:buttonface;
+	text-align:center;
+}
+.divSumcss span
+{
+	border-width: 0px;
+	border-style: solid;
+	background:#CBDCEE;
+	border-color: #8DB1D3;
+	width: 100%;
+	height: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-left:2;
+	padding-top:3;
+}
+.ctxMenu 
+{
+	position:absolute;
+	border:2 outset white;
+	width:90;
+	height:60;
+	z-index: 4;
+}
+.ctxMenu table
+{
+	font-size:9pt;
+	width:100%;
+	height:100%;
+	cursor:default;
+}
+.ctxMenu span
+{
+	ctxTdMo:expression(onmouseover=function(){this.style.backgroundColor="activecaption";this.style.color="highlighttext";},onmouseout=function(){this.style.backgroundColor="";this.style.color="black";});
+	height:100%;
+	width:100%;
+	padding-top:3px;
+	padding-left:4px;
+}
+td.ctxLeft
+{
+	background-color:#8DB1D3;
+	filter:Alpha(Opacity=40, FinishOpacity=100, Style=1, StartX=0, StartY=0, FinishX=50, FinishY=0);
+}
+.divLeftCss table
+{
+	border-collapse:collapse;
+	background:#f4f4f4;
+}
+.divLeftCss td
+{
+	color:#000000;
+	font-size:9pt;
+	text-align:right;
+	height:20px;
+	border:1 solid #8DB1D3;
+	background:#f4f4f4;
+}
+.divLeftCss span
+{
+	border-width: 1px 0px 0px 1px;
+	border-style: solid;
+	background:#f4f4f4;
+	border-color: #f4f4f4;
+	width: 100%;
+	height: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: hand;
+	padding-left:2;
+	padding-top:3;
+}
+.selectColCss select
+{
+	background:white;
+	width:100%;
+}
+.datactrl input{
+	height:20;
+	width:25;
+	font-family:wingdings;
+	overflow:	hidden;
+	text-align:	center;
+	vertical-align:	middle;
+	font-size:9pt;
+	background:lightskyblue;
+	background-image:url(../images/buttonbg.gif);
+	border-width: 1px;
+	border-style: solid;
+	border-color: white steelblue��steelblue��buttonhighlight;
+}
+.tblsearch input{
+	border:1 solid steelblue;
+}
+
+.tblsearch td{
+	font-size:9pt;
+	color:#204D77;
+}
+.tblsearch select{
+	margin:-2;
+}
+.tdMargin3px {
+	WIDTH: 5px
+}
+.tblList ,.tblHead, .tblHeadline ,.tblWorkArea,.tblFoot{
+	border-collapse:collapse;
+	}
+.tblList td{
+	font-size:9pt;
+	}
+.tdFootRight {
+	TEXT-ALIGN: right
+}
+.tdWorkArea {
+	padding:12;
+}
+.search{
+background:#e4e4e4;
+border:1 solid silver;
+padding:5
+}
+.search label{
+white-space:nowrap;
+margin-right:12;
+}
+input.txtfocus
+{
+border:1 solid #0066CC;
+}
+textarea 
+{
+border: 1 solid silver;
+}
+.taboncss{
+background-color:#C5C5C5;
+	border: #999900 1px solid;
+	border-bottom: #FF9900 2px solid;
+	font-size: 9pt;
+	cursor: hand;
+	height: 20px;
+	color: #000000;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	white-space:nowrap;
+filter: Alpha(Opacity=50, FinishOpacity=90, Style=1, StartX=0, StartY=5, FinishX=0, FinishY=50);
+}
+.taboffcss{
+background-color:#E6E6E6;
+	border: silver 1px solid;
+	border-bottom: silver 0px solid;
+	font-size: 9pt;
+	cursor: hand;
+	height: 20px;
+	color: #000000;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	white-space:nowrap;
+filter: Alpha(Opacity=40, FinishOpacity=90, Style=1, StartX=0, StartY=5, FinishX=0, FinishY=50);
+
+}
+.tabdiv
+{
+border:1 solid silver;
+margin-top:-2
+}
+/*-------------------��ť��div��ʽ---------------------------*/
+
+.btnareaCss
+{
+text-align:right;
+background-color:#D5E5F3;
+
+}
+/*-------------------*����ʽ---------------------------*/
+
+.xinghaoCss
+{
+color:red;
+}
+/*-------------------����ʽ---------------------------*/
+
+.treespan
+{
+height:17px;
+	padding:2px 3px;
+	color:#000000;
+}
+
+span.clsLabel
+{
+height:17px;
+	padding:2px 3px;
+}
+
+SPAN.clsMouseOver
+{
+	height:17px;
+	padding:2px 3px;
+	background-color:gainsboro��;
+	border:0px solid white;
+}
+
+SPAN.clsMouseDown
+{
+	height:17px;
+	padding:2px 3px;
+	background-color: royalblue��;
+	border:0px solid white;
+}
+
+SPAN.clsCurrentFocus
+{
+	height:17px;
+	padding:2px 3px;
+	background-color: orange��;
+	border:0px solid white;
+}
+
+SPAN.clsCurrentNoFocus
+{
+	height:17px;
+	padding:2px 3px;
+	background-color:#f2f8ff;
+	border:0px solid #0099cc;
+}
+
+SPAN.Link
+{
+	padding:0px 0px;
+	border: solid 0px #ffffff;
+	top:1px;
+	margin:0px;
+	cursor:hand;
+	height:14px;
+}
+
+.hide
+{
+	display:none;
+}
+
+.shown
+{
+	display:block;
+	margin-left:17px;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#777777', Direction=135, Strength=4);
+}
+
+menuover
+{
+	background-color:#e8f4ff;
+	border:1px solid #0099CC;
+}
+menudown
+{
+	background-color:#99ccff;
+	border:1px solid #0099CC;
+}
+.rightmenu-over
+{
+background-color:#CFD1EB;
+border:1 solid #eeeeee;
+padding:4px;
+
+}
+.rightMenu-right
+{
+background-color:#DED7D6;
+padding:4px;
+border:1 solid #DED7D6;
+
+}
+.rightmenu-div
+{
+border:1px solid #99ccff;
+padding:1px;
+background-color:#DED7D6;
+
+}
+.daohangtitlecss
+{
+ background-color:#C5D5E8;
+ color:#000000;
+}
+/*top�����ѯ*/
+.topslectcss
+{
+background-color:#D9EAFB;
+color:000000;
+
+}
+.topinputcss
+{
+background-color:#D9EAFB;
+color:000000;
+border:1 solid ;
+}
+/*������ʾ��Ϣ*/
+.msgCss
+{
+color:red;
+font-size:9pt;
+}
+.txtReadOnly{/*ֻ����ʽ*/
+	color: #C0C0C0
+}
+/*tabҳ�����ʽ*/
+.titletop {
+	cursor:default;
+	padding-left:5;
+	padding-top:2;
+	padding-right:5;
+	padding-bottom:0;
+	text-align:center;
+	width:100%;
+	height:100%;
+}
+.titlebottom {
+	cursor:default;
+	padding-left:5;
+	padding-top:2;
+	padding-right:5;
+	padding-bottom:0;
+	text-align:center;
+	width:100%;
+}
+.tabcss {
+}
+.tabcss table{
+	background: #e4e4e4;
+}
+.tabcss td {
+	font-size: 9pt;
+	white-space:nowrap;
+}
+.cardcsstop{
+	padding: 10;
+	width: 100%;	
+	border-top: 1 white solid;
+	border-left: 1 white solid;
+	border-right: 2 outset;	
+	background: #e4e4e4;
+}
+.cardcssbottom {
+	padding: 10;
+	width: 100%;
+	border-left: 1 white solid;
+	border-right: 2 outset;
+	border-bottom: 2 outset;
+	background: #e4e4e4;
+}
+/*���û������û�߿�����*/
+table
+{
+	border-collapse:collapse;
+}

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory >
+        <property name="show_sql">false</property><!--显示SQL语言-->
+        
+        <property name="connection.driver_class"><!--指定连接数据库的驱动-->
+           com.microsoft.jdbc.sqlserver.SQLServerDriver
+        </property>
+        
+        <property name="connection.url">
+    				
+     				jdbc:microsoft:sqlserver://localhost:1433;DatabaseName=Shopping
+        </property> 
+
+		<property name="connection.username">sa</property>
+		
+		<property name="connection.password">loushang</property>
+		<property name="hibernate.connection.pool.size">20</property>
+		
+		<property name="jdbc.fetch_size">50</property>
+		
+		<property name="jdbc.batch_size">25</property>    
+		  
+  		 <property name="format_sql">false</property>
+  		 <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+   
+         <mapping resource="user.hbm.xml" /><!--映射user这个资源-->
+         </session-factory>
+        
+</hibernate-configuration>
